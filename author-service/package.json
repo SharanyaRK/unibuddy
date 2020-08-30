@@ -1,0 +1,19 @@
+{
+  "name": "sdet_task",
+  "version": "1.0.0",
+  "description": "Task for SDET candidates",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js"
+  },
+  "repository": "https://github.com/Unibuddy/unibuddy-challenge-sdet",
+  "author": "Sai Charan",
+  "license": "none",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
